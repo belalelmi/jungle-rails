@@ -1,17 +1,15 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 4.2.
 
-![""](https://raw.githubusercontent.com/belalelmi/jungle-rails/cc758db95a8c85a5ea7c1644774963f1e744b4c4/lib/assets/Screen%20Shot%202022-01-10%20at%2010.12.09%20PM.png)
+![""](https://github.com/belalelmi/jungle-rails/blob/master/lib/assets/Screen%20Shot%202022-01-11%20at%2012.09.33%20AM.png?raw=true)
 
-## Additional Steps for Apple M1 Machines
+### Additional Steps for Apple M1 Machines
 
 1. Make sure that you are runnning Ruby 2.6.6 (`ruby -v`)
 1. Install ImageMagick `brew install imagemagick imagemagick@6 --build-from-source`
-1. Remove Gemfile.lock
-1. Replace Gemfile with version provided [here](https://gist.githubusercontent.com/FrancisBourgouin/831795ae12c4704687a0c2496d91a727/raw/ce8e2104f725f43e56650d404169c7b11c33a5c5/Gemfile)
 
-## Setup
+### Setup
 
 1. Run `bundle install` to install dependencies
 2. Create `config/database.yml` by copying `config/database.example.yml`
@@ -20,16 +18,25 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 5. Create .env file based on .env.example
 6. Sign up for a Stripe account
 7. Put Stripe (test) keys into appropriate .env vars
-8. Run `bin/rails s -b 0.0.0.0` to start the server
+8. Run `bin/rails s` or `rails s` to start the server
 
-## Stripe Testing
-
-Use Credit Card # 4111 1111 1111 1111 for testing success scenarios.
-
-More information in their docs: <https://stripe.com/docs/testing#cards>
-
-## Dependencies
+### Dependencies
 
 - Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 - PostgreSQL 9.x
 - Stripe
+
+## Tech Stack
+
+- Ruby 2.6.6
+- Rails 4.2.11
+- Stripe
+- jQuery
+- Gem:
+  - [pg](https://github.com/ged/ruby-pg) | PostgreSQL library for Ruby
+
+### Stripe Testing
+
+Use Credit Card # 4111 1111 1111 1111 for testing success scenarios.
+
+More information in their docs: <https://stripe.com/docs/testing#cards>
