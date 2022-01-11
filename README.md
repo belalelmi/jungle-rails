@@ -35,6 +35,10 @@ A mini e-commerce application built with Rails 4.2.
 - Gem:
   - [pg](https://github.com/ged/ruby-pg) | PostgreSQL library for Ruby
 
+## Testing
+
+This app was tested with `RSpec` & `Capybara`
+
 ### Stripe Testing
 
 Use Credit Card # 4111 1111 1111 1111 for testing success scenarios.
