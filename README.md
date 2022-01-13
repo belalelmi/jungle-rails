@@ -3,6 +3,7 @@
 A mini e-commerce application built with Rails 4.2.
 
 <img alt="Github top language" src="https://img.shields.io/github/languages/top/belalelmi/jungle-rails?style=flat-square&logo=Ruby">
+<img alt='issues' src="https://img.shields.io/github/issues/belalelmi/jungle-rails?style=flat-square&color=informational" >
 
 #
 
