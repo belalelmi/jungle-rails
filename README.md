@@ -4,7 +4,7 @@ A mini e-commerce application built with Rails 4.2.
 
 ![""](https://github.com/belalelmi/jungle-rails/blob/master/lib/assets/Screen%20Shot%202022-01-11%20at%2012.09.33%20AM.png?raw=true)
 
-### Additional Steps for Apple M1 Machines
+### Prerequisites for Apple M1 Machines
 
 1. Make sure that you are runnning Ruby 2.6.6 (`ruby -v`)
 1. Install ImageMagick `brew install imagemagick imagemagick@6 --build-from-source`
