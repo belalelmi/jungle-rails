@@ -37,7 +37,7 @@ A mini e-commerce application built with Rails 4.2.
 
 ## Testing
 
-This app was tested with `RSpec` & `Capybara`
+This app was tested with `RSpec` & `Capybara` and a headless Webkit browser powered by `PhantomJS`.
 
 ### Stripe Testing
 
