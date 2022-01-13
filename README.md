@@ -2,7 +2,13 @@
 
 A mini e-commerce application built with Rails 4.2.
 
+<img alt="Github top language" src="https://img.shields.io/github/languages/top/belalelmi/jungle-rails?style=flat-square&logo=Ruby">
+
+#
+
 ![""](https://github.com/belalelmi/jungle-rails/blob/master/lib/assets/Screen%20Shot%202022-01-11%20at%2012.09.33%20AM.png?raw=true)
+![""](https://github.com/belalelmi/jungle-rails/blob/master/lib/assets/admin-products-page.png?raw=true)
+![""](https://github.com/belalelmi/jungle-rails/blob/master/lib/assets/order_summary.png?raw=true)
 
 ### Prerequisites for Apple M1 Machines
 
@@ -37,7 +43,7 @@ A mini e-commerce application built with Rails 4.2.
 
 ## Testing
 
-This app was tested with `RSpec` & `Capybara` and a headless Webkit browser powered by `PhantomJS`.
+This app was tested with `RSpec`, `Capybara` and a headless Webkit browser powered by `PhantomJS`.
 
 ### Stripe Testing
 
