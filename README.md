@@ -50,3 +50,4 @@ This app was tested with `RSpec`, `Capybara` and a headless Webkit browser power
 Use Credit Card # 4111 1111 1111 1111 for testing success scenarios.
 
 More information in their docs: <https://stripe.com/docs/testing#cards>
+
